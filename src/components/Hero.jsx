@@ -54,7 +54,7 @@ export function Hero() {
 
         {/* Imagen circular */}
         <img
-          src="/public/Taller.jpg"
+          src="/Taller.jpg"
           className="relative w-[500px] md:w-[420px] h-[300px] md:h-[420px] 
           object-cover rounded-full border-4 border-green-500 
           shadow-2xl hover:scale-105 hover:rotate-2 transition duration-500"
