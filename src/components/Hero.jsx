@@ -18,19 +18,21 @@ export function Hero() {
     >
       <motion.h2
         variants={fadeUp}
-        className="text-5xl md:text-6xl font-bold mb-6 leading-tight"
+        className="text-5xl md:text-5xl font-bold mb-6 leading-tight text-center"
       >
-        Lleva tu taller <span className="text-green-500">al siguiente nivel</span>
+        Más control para tu taller,  <span className="text-green-500">más confianza para tus clientes</span>
       </motion.h2>
 
       <motion.p
         variants={fadeUp}
         className="text-gray-300 text-lg md:text-xl leading-relaxed mb-8 max-w-lg text-center"
       >
-        Gestiona <span className="text-white font-semibold">clientes</span>, 
-        <span className="text-white font-semibold"> motos</span> y 
-        <span className="text-green-500 font-semibold"> servicios </span> 
-        con tecnología moderna y eficiente.
+        <span className="text-green-500 font-semibold"> Gestiona </span>
+        <span className="text-white font-semibold">Vehiculos</span>, 
+        <span className="text-green-500 font-semibold"> organiza </span> 
+        <span className="text-white font-semibold"> procesos</span> y 
+        <span className="text-green-500 font-semibold"> mantén </span> a
+        tus clientes <span className="text-white font-semibold">informados</span> en tiempo real desde una sola plataforma.
       </motion.p>
 
       <motion.div
@@ -56,13 +58,18 @@ export function Hero() {
             className="mt-6 text-gray-300 text-lg leading-relaxed max-w-lg"
           >
             <p>
-              MotoTech es una plataforma diseñada para talleres de motos que permite
-              gestionar clientes, historial de servicios, inventario y finanzas en un solo lugar.
+            Nuestra aplicación está diseñada para talleres de motos que buscan
+            modernizar su forma de trabajar. Permite registrar cada vehículo con 
+            su información, hacer seguimiento del estado del servicio, 
+            gestionar citas, controlar costos y documentar el 
+            proceso con fotos y repuestos utilizados.
             </p>
 
-            <p className="mt-4">
-              Optimiza tu tiempo, mejora la atención al cliente y aumenta tus ingresos
-              con herramientas inteligentes y fáciles de usar.
+            <p className="mt-4 py-6 border-t border-gray-700">
+            Además, envía notificaciones automáticas al cliente sobre el avance de su moto, 
+            reduciendo llamadas innecesarias y generando mayor confianza. 
+            Todo esto en una plataforma fácil de usar, accesible desde computador o celular,
+             pensada especialmente para talleres pequeños y medianos.
             </p>
           </motion.div>
         )}
