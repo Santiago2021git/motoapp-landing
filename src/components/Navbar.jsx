@@ -32,13 +32,13 @@ export function Navbar() {
 
           {/* LINKS */}
           <div className="hidden md:flex gap-6">
-            <a href="#beneficios" className="hover:text-green-400 transition">
+            <a href="#beneficios" className="hover:text-green-400 font-medium transition">
               Beneficios
             </a>
-            <a href="#planes" className="hover:text-green-400 transition">
+            <a href="#planes" className="hover:text-green-400 font-medium transition">
               Planes
             </a>
-            <a href="#equipo" className="hover:text-green-400 transition">
+            <a href="#equipo" className="hover:text-green-400 font-medium transition">
               Equipo
             </a>
           </div>
