@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Formulario } from "./Formulario"; // 👈 IMPORTANTE
+import { Formulario } from "./Formulario"; 
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -23,11 +23,16 @@ export function Navbar() {
           {/* LOGO + NOMBRE */}
           <div className="flex items-center gap-3">
             <h1 className="font-bold text-xl">MotoTech</h1>
-            <img
-              src="/Logo.jpeg"
-              alt="Logo"
-              className="w-12 h-12 rounded-full object-cover border-2 border-green-500 shadow-xl hover:scale-110 transition duration-300"
-            />
+            <button
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              className="flex items-center"
+            >
+              <img
+                src="/Logo.jpeg"
+                alt="Logo"
+                className="w-12 h-12 rounded-full object-cover border-2 border-green-500 shadow-xl hover:scale-110 transition duration-300"
+              />
+            </button>
           </div>
 
           {/* LINKS */}

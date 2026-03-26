@@ -7,7 +7,7 @@ export function Hero() {
   return (
 <section className="min-h-screen flex items-center pt-24 pb-16 bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white px-6">
 
-  <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+  <div className="max-w-7xl mx-auto flex flex-col md:grid md:grid-cols-2 gap-16 items-center">
 
     {/* TEXTO */}
     <motion.div

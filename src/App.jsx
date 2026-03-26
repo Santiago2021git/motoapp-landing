@@ -1,6 +1,6 @@
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
-import { Stats } from "./components/Stats";
+import { Problems } from "./components/Problems";
 import { Benefits } from "./components/Benefits";
 import { Pricing } from "./components/Pricing";
 import { Testimonials } from "./components/Testimonials";
@@ -15,7 +15,7 @@ export default function App(){
     <div className="bg-black">
       <Navbar/>
       <Hero/>
-      <Stats/>
+      <Problems/>
       <Benefits/>
       <Pricing/>
       <Testimonials/>

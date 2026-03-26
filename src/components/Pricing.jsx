@@ -21,23 +21,33 @@ export function Pricing() {
     },
     {
       name: "Pro",
-      price: "$49.900",
+      description:"Ideal para talleres pequeños que ya atienden varios servicios por semana",
+      price: "$49.900 / mes",
       features: [
-        "Gestión completa de clientes",
-        "Historial de servicios",
-        "Notificaciones automáticas",
-        "Reportes básicos"
+        "Todo lo del plan Gratis",
+        "Servicios ilimitados",
+        "Registro de evidencia con fotos y notas",
+        "Notificaciones de avance para clientes",
+        "Gestión de citas",
+        "Historial completo por moto",
+        "Hasta 3 usuarios del taller",
+        "Panel de control con métricas básicas"
       ],
       highlight: true
     },
     {
       name: "Premium",
-      price: "$59k",
+      description: "Ideal para talleres medianos que quieren dar una experiencia más profesional.",
+      price: "$99.900 / mes",
       features: [
         "Todo lo del plan Pro",
-        "Estadísticas avanzadas",
-        "Multiusuarios",
-        "Soporte prioritario"
+        "Usuarios ilimitados",
+        "Reportes avanzados de servicios e ingresos",
+        "Estados personalizados del proceso",
+        "Recordatorios automáticos de mantenimiento",
+        "Mayor capacidad de almacenamiento de fotos",
+        "Atención prioritaria",
+        "Personalización de la plataforma con el logo del taller y nombre"
       ],
       highlight: false
     }

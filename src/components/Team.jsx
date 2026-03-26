@@ -9,19 +9,19 @@ export function Team() {
     {
       name: "Santiago Gallego",
       role: "Desarrollador Full Stack / Líder Técnico",
-      img: "",
+      img: "Persona.png",
       text: "Se encarga del diseño e implementación de la aplicación en frontend y backend, definiendo la arquitectura del sistema. Desarrolla funcionalidades clave como el registro de vehículos, gestión de estados y notificaciones. Además, integra la base de datos y realiza pruebas para garantizar el correcto funcionamiento de la aplicación."
     },
     {
       name: "Steven Grisales",
       role: "Diseñador UX/UI y Frontend",
-      img: "",
+      img: "Persona.png",
       text: "Se encarga de diseñar una interfaz atractiva e intuitiva para la aplicación y la landing page. Define la experiencia de usuario, crea prototipos y aplica estilos con herramientas como CSS o Tailwind. También asegura que la aplicación sea responsive y fácil de usar en diferentes dispositivos."
     },
     {
       name: "Luis Felipe Garzón",
       role: "Gestión del Proyecto y Negocios",
-      img: "",
+      img: "Persona.png",
       text: "Se encarga de analizar la viabilidad del proyecto y estructurar el modelo de negocio. Realiza la validación de la idea, la vigilancia tecnológica y la definición de requisitos. Además, desarrolla la documentación y apoya la preparación de presentaciones."
     }
   ];
